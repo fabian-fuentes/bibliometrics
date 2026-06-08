@@ -125,6 +125,10 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# Secrets / local config (NEVER commit your API key)
+config.py
+scopus/config.py
+
 # Environments
 .env
 .venv
